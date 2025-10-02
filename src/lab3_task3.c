@@ -1,6 +1,6 @@
 /*
  * Lab 3, Task 3
- * Chamod Chirantha Dilshan, 233AEB022
+ * Chamod Chirantha Dilshan,233AEB022
  *
  * Implement basic string handling functions.
  * Write your own versions of:
