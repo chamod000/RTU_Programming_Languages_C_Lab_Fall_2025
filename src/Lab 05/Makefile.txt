@@ -1,0 +1,50 @@
+# Lab 5 Makefile
+# Usage:
+#   make            # build all
+#   make run1       # run Task 1
+#   make run2       # run Task 2
+#   make run3       # run Task 3
+#   make run4       # run Task 4 (bonus)
+#   make clean
+#   make lab5       # alias for 'make all'
+
+CC      := gcc
+CFLAGS  := -std=c11 -Wall -Wextra -pedantic -O2
+
+BIN1 := week5_task1_file_io
+BIN2 := week5_task2_struct_save_load
+BIN3 := week5_task3_student_management_system
+BIN4 := week5_task4_struct_binary_io
+
+all: $(BIN1) $(BIN2) $(BIN3) $(BIN4)
+
+$(BIN1): week5_task1_file_io.c
+	$(CC) $(CFLAGS) $< -o $@
+
+$(BIN2): week5_task2_struct_save_load.c
+	$(CC) $(CFLAGS) $< -o $@
+
+$(BIN3): week5_task3_student_management_system.c
+	$(CC) $(CFLAGS) $< -o $@
+
+$(BIN4): week5_task4_struct_binary_io.c
+	$(CC) $(CFLAGS) $< -o $@
+
+run1: $(BIN1)
+	./$(BIN1)
+
+run2: $(BIN2)
+	./$(BIN2)
+
+run3: $(BIN3)
+	./$(BIN3)
+
+run4: $(BIN4)
+	./$(BIN4)
+
+clean:
+	$(RM) $(BIN1) $(BIN2) $(BIN3) $(BIN4) *.o data.txt student.txt students.txt student_text.txt student_bin.dat
+
+# Moodle mentions 'make lab5' for checking compilation
+lab5: all
+	@echo "✅ Lab 5 build complete."
