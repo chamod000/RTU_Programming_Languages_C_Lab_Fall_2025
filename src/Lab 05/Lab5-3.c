@@ -1,10 +1,10 @@
 /*
  * Name: Chamod Chirantha Dilshan Kodithuwakku Arachchige
- * Student ID: <ADD_YOUR_STUDENT_ID_HERE>
+ * Student ID: 233AEB022
  * Course: DE0917 (English) 25/26-R
- * Lab 5 – Task 3: Student Management System with file persistence
+ * Lab 5 – Task 3: 
  *
- * Compile:  gcc -std=c11 -Wall -Wextra -pedantic week5_task3_student_management_system.c -o week5_task3_student_management_system
+ * 
  */
 #include <stdio.h>
 #include <stdlib.h>

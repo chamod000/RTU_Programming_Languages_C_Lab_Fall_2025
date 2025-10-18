@@ -1,10 +1,10 @@
 /*
  * Name: Chamod Chirantha Dilshan Kodithuwakku Arachchige
- * Student ID: <ADD_YOUR_STUDENT_ID_HERE>
+ * Student ID: 233AEB022
  * Course: DE0917 (English) 25/26-R
- * Lab 5 – Task 2: Save & Load a struct Student (text format)
+ * Lab 5 – Task 2: 
  *
- * Compile:  gcc -std=c11 -Wall -Wextra -pedantic week5_task2_struct_save_load.c -o week5_task2_struct_save_load
+
  */
 #include <stdio.h>
 #include <stdlib.h>

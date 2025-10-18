@@ -1,10 +1,10 @@
 /*
  * Name: Chamod Chirantha Dilshan Kodithuwakku Arachchige
- * Student ID: <ADD_YOUR_STUDENT_ID_HERE>
+ * Student ID: 233AEB022
  * Course: DE0917 (English) 25/26-R
- * Lab 5 – Task 4 (Bonus): Binary I/O for struct Student + size comparison
+ * Lab 5 – Task 4 (Bonus): 
  *
- * Compile:  gcc -std=c11 -Wall -Wextra -pedantic week5_task4_struct_binary_io.c -o week5_task4_struct_binary_io
+ * 
  */
 #include <stdio.h>
 #include <stdlib.h>
